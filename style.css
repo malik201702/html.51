@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(240, 248, 255, 0.358);
+    overflow-x: 99vw;
+}
+
+.item{
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    border: 2px solid black;
+    width: 300px;
+    height: 260px;
+    margin: 20px;
+    transition: 1s;
+    text-align: center;
+}
+
+.item:hover{
+    transform: scale(1.1);
+}
+
+.container{
+    width: 99vw;
+    display: flex;
+}
+
+.container2{
+    width: 99vw;
+    display: flex;
+}
+
+img{
+    width: 110px;
+    margin-top: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+p{
+    font-size: x-large;
+}
